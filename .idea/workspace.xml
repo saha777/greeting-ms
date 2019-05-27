@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802c2987-ed52-4435-9334-852ec507da88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/greetings-zuul/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greetings-zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greetings-zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greetings-zuul/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greetings-zuul/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greetings-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/greetings-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greetings-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/greetings-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greetings-zuul/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/greetings-zuul/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-registry/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/service-registry/target/" />
     <ignored path="$PROJECT_DIR$/greetings-service/target/" />
     <ignored path="$PROJECT_DIR$/greetings-client/target/" />
+    <ignored path="$PROJECT_DIR$/greetings-zuul/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +43,36 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cmd" value="1" />
-          <entry key="java" value="11" />
-          <entry key="mvnw" value="1" />
-          <entry key="properties" value="4" />
-          <entry key="xml" value="4" />
+          <entry key="gitignore" value="4" />
+          <entry key="java" value="17" />
+          <entry key="mvnw" value="2" />
+          <entry key="properties" value="5" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="4" />
+          <entry key="JAVA" value="17" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="366" />
-          <entry key="properties" value="173" />
-          <entry key="txt" value="5" />
-          <entry key="xml" value="36" />
+          <entry key="gitignore" value="42" />
+          <entry key="java" value="1682" />
+          <entry key="properties" value="256" />
+          <entry key="txt" value="26" />
+          <entry key="xml" value="75" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="366" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Properties" value="173" />
-          <entry key="XML" value="36" />
+          <entry key="JAVA" value="1682" />
+          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="Properties" value="256" />
+          <entry key="XML" value="75" />
         </counts>
       </usages-collector>
     </session>
@@ -73,34 +80,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClientApplication.java">
+        <entry file="file://$PROJECT_DIR$/greetings-zuul/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClient.java">
+        <entry file="file://$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/ZuulConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsApi.java">
+        <entry file="file://$PROJECT_DIR$/greetings-zuul/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/RoutesListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,19 +128,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-registry/pom.xml">
+        <entry file="file://$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/CorsFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding>
+                <element signature="e#3474#3475#0" expanded="true" />
+                <element signature="e#3506#3507#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-registry/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greetings-zuul/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -129,44 +161,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greetings-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="204">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greetings-service/src/main/java/greetings/DefaultGreetingsRestController.java">
+        <entry file="file://$PROJECT_DIR$/greetings-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greetings-service/src/main/java/greetings/GreetingsServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greetings-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greetings-client/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="191">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -190,14 +195,23 @@
         <option value="$PROJECT_DIR$/greetings-service/src/main/java/greetings/GreetingsServiceApplication.java" />
         <option value="$PROJECT_DIR$/greetings-service/pom.xml" />
         <option value="$PROJECT_DIR$/greetings-service/src/main/java/greetings/DefaultGreetingsRestController.java" />
-        <option value="$PROJECT_DIR$/greetings-client/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/service-registry/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/greetings-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/greetings-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsApi.java" />
-        <option value="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClient.java" />
+        <option value="$PROJECT_DIR$/greetings-client/pom.xml" />
         <option value="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClientApplication.java" />
+        <option value="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClient.java" />
+        <option value="$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsApi.java" />
+        <option value="$PROJECT_DIR$/greetings-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/greetingszuul/GreetingsZuulApplication.java" />
+        <option value="$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/GreetingsZuulApplication.java" />
+        <option value="$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/ZuulConfiguration.java" />
+        <option value="$PROJECT_DIR$/greetings-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/greetings-zuul/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/RoutesListener.java" />
+        <option value="$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/CorsFilter.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/greetings-zuul/.gitignore" />
       </list>
     </option>
   </component>
@@ -244,68 +258,25 @@
             <path>
               <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-client" type="462c0819:PsiDirectoryNode" />
+              <item name="greetings-zuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-client" type="462c0819:PsiDirectoryNode" />
+              <item name="greetings-zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-service" type="462c0819:PsiDirectoryNode" />
+              <item name="greetings-zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-service" type="462c0819:PsiDirectoryNode" />
+              <item name="greetings-zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -313,7 +284,7 @@
             <path>
               <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-service" type="462c0819:PsiDirectoryNode" />
+              <item name="greetings-zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -322,33 +293,7 @@
             <path>
               <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="greetings-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="service-registry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="service-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="service-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservices-feign" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservices-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="service-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="greetings-zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -367,14 +312,20 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558953495026" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558965916887" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/greetings-zuul/src/main/java/greetings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algos" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3448276" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\development\microservices-feign" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -388,7 +339,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GreetingsClientApplication">
+  <component name="RunManager" selected="Spring Boot.GreetingsServiceApplication">
     <configuration name="GreetingsClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="greetings-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="greetings.GreetingsClientApplication" />
@@ -405,6 +356,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GreetingsZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="greetings-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="greetings.GreetingsZuulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service-registry" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.micros.ServiceRegistryApplication" />
@@ -416,6 +375,7 @@
       <item itemvalue="Spring Boot.ServiceRegistryApplication" />
       <item itemvalue="Spring Boot.GreetingsServiceApplication" />
       <item itemvalue="Spring Boot.GreetingsClientApplication" />
+      <item itemvalue="Spring Boot.GreetingsZuulApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -432,12 +392,27 @@
       <workItem from="1554822975531" duration="873000" />
       <workItem from="1558620050061" duration="2068000" />
       <workItem from="1558633161167" duration="40000" />
-      <workItem from="1558952660575" duration="818000" />
+      <workItem from="1558952660575" duration="10944000" />
     </task>
+    <task id="LOCAL-00001" summary="added configs">
+      <created>1558953639131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558953639132</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added zuul">
+      <created>1558965764406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558965764406</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7472000" />
+    <option name="totallyTimeSpent" value="17598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -464,7 +439,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3071749" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3295964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,8 +455,23 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added configs" />
+    <MESSAGE value="added zuul" />
+    <option name="LAST_COMMIT_MESSAGE" value="added zuul" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/service-registry/src/main/java/com/micros/ServiceRegistryApplication.java">
@@ -497,20 +487,6 @@
     <entry file="file://$PROJECT_DIR$/greetings-service/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greetings-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-registry/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
@@ -525,10 +501,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greetings-service/src/main/java/greetings/GreetingsServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/greetings-client/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="17">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-registry/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-zuul/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -539,54 +558,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greetings-service/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/GreetingsZuulApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="66" />
+        <state relative-caret-position="170">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greetings-client/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/greetings-service/src/main/java/greetings/GreetingsServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/greetings-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="204">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsApi.java">
+    <entry file="file://$PROJECT_DIR$/greetings-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/ZuulConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/RoutesListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greetings-zuul/src/main/java/greetings/CorsFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#3474#3475#0" expanded="true" />
+            <element signature="e#3506#3507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClient.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greetings-client/src/main/java/greetings/GreetingsClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/greetings-zuul/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

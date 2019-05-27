@@ -11,6 +11,7 @@
     <modules>
         <module>greetings-client</module>
         <module>greetings-service</module>
+        <module>greetings-zuul</module>
         <module>service-registry</module>
     </modules>
 </project>

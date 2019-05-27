@@ -1,6 +1,9 @@
 HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
+.mvn
+mvnw
+mvnw.cmd
 
 ### STS ###
 .apt_generated
@@ -24,9 +27,4 @@ HELP.md
 /nbdist/
 /.nb-gradle/
 /build/
-
-### Maven ###
-.mvn
-mvnw
-mvnw.cmd
 
